@@ -1,0 +1,117 @@
+{
+  "menu_tree.default.categoryId" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.contentType" : {
+    "message" : "blog",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.isDeleted" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.isPublished" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.linkLabel" : {
+    "message" : "a",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.linkParams" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.linkTarget" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.linkUrl" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.pageLinkId" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.pageLinkName" : {
+    "message" : "Kuno Blog",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.state" : {
+    "message" : "PUBLISHED",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.subCategory" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.default.type" : {
+    "message" : "PAGE_LINK",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu_tree.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "menu_tree.label" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "menu_tree.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "simple_menu-pratik",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.horizontal" : {
+    "message" : "Horizontal",
+    "description" : "",
+    "placeholders" : null
+  },
+  "orientation.choices.vertical" : {
+    "message" : "Vertical",
+    "description" : "",
+    "placeholders" : null
+  },
+  "orientation.help_text" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "orientation.label" : {
+    "message" : "Menu orientation",
+    "description" : "",
+    "placeholders" : null
+  },
+  "orientation.placeholder" : {
+    "message" : "Search",
+    "description" : "",
+    "placeholders" : null
+  }
+}

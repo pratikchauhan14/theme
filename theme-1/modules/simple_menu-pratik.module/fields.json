@@ -1,0 +1,63 @@
+[ {
+  "id" : "de863304-d116-95df-701d-946282fb63fc",
+  "name" : "menu_tree",
+  "label" : "Simple menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "simplemenu",
+  "default" : [ {
+    "isPublished" : true,
+    "pageLinkId" : 4551205001,
+    "pageLinkName" : "Kuno Blog",
+    "isDeleted" : false,
+    "categoryId" : 3,
+    "contentType" : "blog",
+    "state" : "PUBLISHED",
+    "linkLabel" : "a",
+    "linkUrl" : null,
+    "linkParams" : null,
+    "linkTarget" : null,
+    "type" : "PAGE_LINK",
+    "children" : [ ]
+  }, {
+    "isPublished" : false,
+    "pageLinkId" : null,
+    "pageLinkName" : null,
+    "isDeleted" : null,
+    "categoryId" : null,
+    "subCategory" : null,
+    "contentType" : null,
+    "state" : null,
+    "linkLabel" : "b",
+    "linkUrl" : "#",
+    "linkParams" : null,
+    "linkTarget" : null,
+    "type" : "URL_LINK",
+    "children" : [ ]
+  }, {
+    "isPublished" : true,
+    "pageLinkId" : 4551205001,
+    "pageLinkName" : "Kuno Blog",
+    "isDeleted" : false,
+    "categoryId" : 3,
+    "contentType" : "blog",
+    "state" : "PUBLISHED",
+    "linkLabel" : "c",
+    "linkUrl" : null,
+    "linkParams" : null,
+    "linkTarget" : null,
+    "type" : "PAGE_LINK_WITH_PARAMS",
+    "children" : [ ]
+  } ]
+}, {
+  "id" : "b9755df2-ad38-55a3-f10e-f1bb67127be6",
+  "name" : "orientation",
+  "label" : "Menu orientation",
+  "required" : false,
+  "locked" : false,
+  "display" : "radio",
+  "placeholder" : "Search",
+  "choices" : [ [ "horizontal", "Horizontal" ], [ "vertical", "Vertical" ] ],
+  "type" : "choice",
+  "default" : "vertical"
+} ]

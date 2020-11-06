@@ -1,0 +1,12 @@
+defaultPortal: pratik_chauhan
+portals:
+  - name: pratik_chauhan
+    portalId: 2721148
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CLHjw8vZLhIEAA0ABBj8iqYBIJeRrgEo7ukMMhkAOmmUbInNc-uradDhRTWLmk1hy0zyHyw1Oh0AAARBAAAAeAAAAAAAAAAAgAAAAAAAAAQAAMAHYEIZADpplGxH7aqPsOlIQhxNc3vxaARCpQng0A
+        expiresAt: '2020-11-05T17:25:17.366Z'
+    personalAccessKey: >-
+      CiQ1MDRiMzYyOS05OWU3LTQwZWMtOTVkMC0yYTM4YmZlYzc5NWEQ_IqmARiXka4BKhkABeaRgqOmEhh91yokRWn4BBq1Nuij-hTh

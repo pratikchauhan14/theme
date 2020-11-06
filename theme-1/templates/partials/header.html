@@ -1,0 +1,84 @@
+<!--
+  templateType: global_partial
+  label: Website header
+-->
+
+<div class="header">
+	<!-- Top Header -->
+	<div class="top-header">
+		<div class="wrapper">
+			<div class="wrapper-inner">
+				<div class="date">{% module 'date' path="@hubspot/text", label="Sub Title" , value="Friday, July 12, 2019" %}</div>
+				<div class="links">
+					{% module "Link Menu" path="@hubspot/simple_menu", label="Link Menu" %}
+				</div>
+				<div class="searchbar">
+					<div class="label">
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<span>{% module 'Search_Placeholder' path="@hubspot/text", label="Search Placeholder" , value="Start to type here..." %}</span>
+					</div>
+					<div class="search_input_wrapper">
+						<input type="text" name="">
+						<button><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	
+	
+
+	<!-- Top Header 2 -->
+	<div class="top-header-2">
+		<div class="wrapper">
+			<div class="wrapper-inner">
+				<span class="tag">{% module 'Tech_Tag' path="@hubspot/text", label="Header Tagline" , value="TECHNOLOGY TIPS" %}</span>
+				{% module "module_16032861864556" path="/Pratik/theme-1/modules/Header Tag Slider", label="Header Tag Slider" 
+					single_slide='[
+						{"slider_label":"BALKANS","date":"May 7,2019","text_field":"This Week’s Top Stories About Holidays"},
+						{"slider_label":"BALKANS","date":"May 7,2019","text_field":"This Week’s Top Stories About Holidays"},
+						{"slider_label":"BALKANS","date":"May 7,2019","text_field":"This Week’s Top Stories About Holidays"}
+					]'
+				%}
+			</div>
+		</div>
+	</div>
+
+	<!-- Logo Header -->
+	<div class="logo-header">
+		<div class="wrapper">
+			<div class="wrapper-inner">
+				<div class="logo">
+					{% module 'site_logo' path='@hubspot/logo' 
+						img='{"override_inherited_src":true,"src":get_asset_url("../../images/logo.png"),"alt":"counter-icon2",}'
+					%}
+					
+					{% module 'Module Name' path='@hubspot/logo' 
+						img='{"override_inherited_src":true,"src":get_asset_url("Image Path"),"alt":"counter-icon2",}'
+					%}
+				</div>
+				<div class="header-add">
+						{% module "module_logo_add" path="@hubspot/linked_image", label="Logo 2" 
+							img='{"size_type":"auto","src":get_asset_url("../../images/header-add.png"),"alt":"Logo Add",}'
+						%}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main Nav Menu -->
+	<div class="nav-header">
+		<div class="wrapper">
+			<div class="wrapper-inner">
+				<div class="menu">
+					{% module "Navigation_Menu1" path="@hubspot/menu", label="Navigation Menu 1" , max_levels='3', id=5270824038 %}
+				</div>
+				{% module "module_160328928065110" path="/Pratik/theme-1/modules/Social Media Connection",  module_id=36467750477, label="Social Media Connection 1" %}
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
